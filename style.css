@@ -1,10 +1,26 @@
-body{background-color: rgb(243, 11, 193); margin: 20px;}
-h1
-{font-family: fantasy; font-size: 30px; color: rgb(15, 14, 15);}
-h2{font-family: fantasy;}
-p {font-family: fantasy;} 
-img{
+body {
+    background-color: rgb(243, 11, 193);
+    margin: 20px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 300px 300px;
+}
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: rgb(15, 14, 15);
+}
+
+h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+p {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+img {
     max-width: 100%;
 }
-<p1{ font-family: <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    ;}
