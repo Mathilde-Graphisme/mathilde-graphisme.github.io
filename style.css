@@ -1,12 +1,15 @@
 body {
-    background-color: rgb(0, 255, 98);
+    background-color: rgb(255, 0, 170);
     margin: 20px;
 }
 
-.grid{
-    display:grid;
-    grid-template-columns: 300px 300px;
+.grid {
+    display: grid;
+    grid-template-columns: 20fr 20fr;
+    grid-template-rows: 250px 250px 250px;
+    grid-column-gap: 20px;
 }
+
 h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 30px;
