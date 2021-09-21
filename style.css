@@ -1,19 +1,25 @@
 body {
-    background-color: rgb(255, 0, 170);
+    background-color: rgb(255, 0, 179);
     margin: 20px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 20fr 20fr;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
+    gap: 20px;
 }
 
 h1 {
     font-family: 'Bebas Neue', sans-serif;
+    text-align: left;
     font-size: 30px;
-    color: rgb(15, 14, 15);
+
+}
+
+h1 a {
+    color: currentColor;
+    text-decoration: none;
 }
 
 h2 {
@@ -26,4 +32,24 @@ p {
 
 img {
     max-width: 100%;
+}
+
+img:hover {
+    zoom: normal;
+
+}
+
+.div-image {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.image-zoom {
+    transition: 0, 7s;
+}
+
+.image-zoom:hover {
+    transform: scaleY(1.1);
 }
